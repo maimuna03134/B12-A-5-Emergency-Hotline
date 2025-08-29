@@ -28,7 +28,7 @@
   </head>
   <body>
     <header class="mx-auto mt-5 px-10">
-      <nav class="flex justify-between items-center sm:flex-row">
+      <nav class="flex flex-col sm:flex-row justify-between items-center sm:flex-row">
         <div class="left flex justify-center items-center gap-3">
           <img src="./assets/logo.png" class="w-[50px] sm:w-[60px]" alt="" />
           <h1 class="text-xl sm:text-2xl text-green-800 font-bold">
@@ -49,20 +49,20 @@
         class=" mt-5 bg-[linear-gradient(90deg,rgba(1,49,34,1),rgba(0,103,71,1)50%,rgba(1,50,35,1)100%)] flex flex-col justify-center items-center"
       >
         <img src="./assets/logo.png" class="w-[90px] mt-7" alt="" />
-        <h2 class="text-4xl text-white font-bold">
+        <h2 class="text-3xl text-center sm:text-4xl text-white font-bold px-3">
           Emergency Service Directory
         </h2>
-        <p class="text-lg text-[#ffffff] my-3">
+        <p class="text-sm text-center px-3 sm:text-lg text-[#ffffff] my-3">
           Government Emergency Services at Your Fingertip – A Project by
           Government of the People’s Republic of Bangladesh
         </p>
       </div>
 
       <!-- card items part -->
-      <div class="mx-auto px-10 bg-[#F5FFF6] flex justify-between gap-5">
+      <div class="mx-auto px-5 sm:px-10 bg-[#F5FFF6] flex flex-col md:flex-row justify-between gap-5">
         <!-- Left Side: helpline cards -->
         <div
-          class="my-10  flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          class="my-10 flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 order-2 md:order-1"
         >
           <!-- card-item 1 -->
           <div class="bg-white p-5 rounded-lg shadow-md">
@@ -458,9 +458,9 @@
 
         <!-- Right Side: call history -->
         <div
-          class="callHistory my-10 w-80 bg-white shadow-md p-5 border-l border-gray-200 rounded-lg"
+          class="callHistory my-5 sm:my-10 sm:w-80 bg-white shadow-md p-5 border-l border-gray-200 rounded-lg order-1 md:order-2"
         >
-          <div class="flex justify-between items-center mb-4">
+          <div class="flex flex-col sm:flex-row gap-5 justify-between items-center mb-4">
             <h2 class="font-semibold text-lg"><i class="text-gray-500 fa-regular fa-clock"></i>  Call History</h2>
             <button
               class="text-sm bg-green-500 text-white px-4 py-2 rounded-3xl hover:bg-green-700"
