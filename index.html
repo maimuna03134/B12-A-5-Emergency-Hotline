@@ -37,7 +37,7 @@
         </div>
         <div class="right flex flex-col sm:flex-row gap-3 mt-3 sm:mt-0">
           <button class="btn bg-[#41ff6b1a] rounded-4xl"><span id="heartCount">0</span> <img src="./assets/heart.png" class="w-6 h-6" alt=""></button>
-          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span>0</span> <img src="./assets/coin.png" class="w-6 h-6" alt=""></button>
+          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span class="coin">100</span> <img src="./assets/coin.png" class="w-6 h-6" alt=""></button>
           <button class="btn bg-green-600 text-white rounded-4xl"><span>0</span>Copy</button>
         </div>
       </nav>
@@ -46,7 +46,7 @@
     <main>
       <!-- banner part -->
       <div
-        class=" mt-10 bg-[linear-gradient(90deg,rgba(1,49,34,1),rgba(0,103,71,1)50%,rgba(1,50,35,1)100%)] flex flex-col justify-center items-center"
+        class=" mt-5 bg-[linear-gradient(90deg,rgba(1,49,34,1),rgba(0,103,71,1)50%,rgba(1,50,35,1)100%)] flex flex-col justify-center items-center"
       >
         <img src="./assets/logo.png" class="w-[90px] mt-7" alt="" />
         <h2 class="text-4xl text-white font-bold">
@@ -78,7 +78,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">National Emergency Number</h2>
               <p class="text-sm text-gray-500">National Emergency</p>
@@ -93,15 +93,15 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- calls and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
-                class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
+                class=" flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
               >
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -121,7 +121,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Police Helpline Number</h2>
               <p class="text-sm text-gray-500">Police</p>
@@ -136,7 +136,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -144,8 +144,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
-              >
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600">
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
@@ -164,7 +163,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Fire Service Number</h2>
               <p class="text-sm text-gray-500">Fire Service</p>
@@ -179,7 +178,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -187,7 +186,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -207,7 +206,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Ambulance Service</h2>
               <p class="text-sm text-gray-500">Ambulance</p>
@@ -222,7 +221,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -230,7 +229,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -250,7 +249,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Women & Child Helpline</h2>
               <p class="text-sm text-gray-500">Women & Child Helpline</p>
@@ -265,7 +264,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and card Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -273,7 +272,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -293,7 +292,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Anti-Corruption Helpline</h2>
               <p class="text-sm text-gray-500">Anti-Corruption</p>
@@ -308,7 +307,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -316,7 +315,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -336,7 +335,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Electricity Helpline</h2>
               <p class="text-sm text-gray-500">Electricity Outage</p>
@@ -351,7 +350,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -359,7 +358,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -379,7 +378,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Brac Helpline</h2>
               <p class="text-sm text-gray-500">Brac</p>
@@ -394,7 +393,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -402,7 +401,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -426,7 +425,7 @@
               </div>
             </div>
 
-            <!-- card text -->
+            <!-- card description -->
             <div>
               <h2 class="text-lg font-semibold">Bangladesh Railway Helpline</h2>
               <p class="text-sm text-gray-500">Bangladesh Railway</p>
@@ -441,7 +440,7 @@
               >
             </div>
 
-            <!-- Card Buttons -->
+            <!-- call and copy Buttons -->
             <div class="mt-5 flex space-x-3">
               <button
                 class="flex-1 border-1 border-gray-400 rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -449,7 +448,7 @@
                 <i class="fa-solid fa-copy"></i> Copy
               </button>
               <button
-                class="flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
+                class="callBtn flex-1 bg-green-500 text-white rounded-lg py-2 hover:bg-green-600"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -459,7 +458,7 @@
 
         <!-- Right Side: call history -->
         <div
-          class="my-10 w-80 bg-white shadow-md p-5 border-l border-gray-200 rounded-lg"
+          class="callHistory my-10 w-80 bg-white shadow-md p-5 border-l border-gray-200 rounded-lg"
         >
           <div class="flex justify-between items-center mb-4">
             <h2 class="font-semibold text-lg"><i class="text-gray-500 fa-regular fa-clock"></i>  Call History</h2>
