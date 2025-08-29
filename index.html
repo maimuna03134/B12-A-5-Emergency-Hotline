@@ -36,8 +36,8 @@
           </h1>
         </div>
         <div class="right flex flex-col sm:flex-row gap-3 mt-3 sm:mt-0">
-          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span>0</span> <img src="./assets/heart.png" class="w-6 h-6" alt=""></button>
-          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span>100</span> <img src="./assets/coin.png" class="w-6 h-6" alt=""></button>
+          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span id="heartCount">0</span> <img src="./assets/heart.png" class="w-6 h-6" alt=""></button>
+          <button class="btn bg-[#41ff6b1a] rounded-4xl"><span>0</span> <img src="./assets/coin.png" class="w-6 h-6" alt=""></button>
           <button class="btn bg-green-600 text-white rounded-4xl"><span>0</span>Copy</button>
         </div>
       </nav>
@@ -59,13 +59,13 @@
       </div>
 
       <!-- card items part -->
-      <div class=" bg-[#F5FFF6] flex justify-between gap-5">
+      <div class="mx-auto px-10 bg-[#F5FFF6] flex justify-between gap-5">
         <!-- Left Side: helpline cards -->
         <div
-          class="mt-10 flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          class="my-10  flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           <!-- card-item 1 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -74,7 +74,7 @@
                 <img src="./assets/emergency.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -108,7 +108,7 @@
             </div>
           </div>
           <!-- card-item 2 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -117,7 +117,7 @@
                 <img src="./assets/police.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -151,7 +151,7 @@
             </div>
           </div>
           <!-- card-item 3 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -160,7 +160,7 @@
                 <img src="./assets/fire-service.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -194,7 +194,7 @@
             </div>
           </div>
           <!-- card-item 4 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -203,7 +203,7 @@
                 <img src="./assets/ambulance.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -237,7 +237,7 @@
             </div>
           </div>
           <!-- card-item 5 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -246,7 +246,7 @@
                 <img src="./assets/emergency.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -280,7 +280,7 @@
             </div>
           </div>
           <!-- card-item 6 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -289,7 +289,7 @@
                 <img src="./assets/emergency.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -323,7 +323,7 @@
             </div>
           </div>
           <!-- card-item 7 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -332,7 +332,7 @@
                 <img src="./assets/emergency.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -366,7 +366,7 @@
             </div>
           </div>
           <!-- card-item 8 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -375,7 +375,7 @@
                 <img src="./assets/brac.png" class="w-8 h-8" alt="" />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -409,7 +409,7 @@
             </div>
           </div>
           <!-- card-item 9 -->
-          <div class="bg-white p-5 rounded-lg">
+          <div class="bg-white p-5 rounded-lg shadow-md">
             <!-- siren and heart -->
             <div class="flex justify-between items-center">
               <div
@@ -422,7 +422,7 @@
                 />
               </div>
               <div>
-                <p>🤍</p>
+                <p class="heart-btn cursor-pointer">🤍</p>
               </div>
             </div>
 
@@ -459,10 +459,10 @@
 
         <!-- Right Side: call history -->
         <div
-          class="mt-10 w-80 bg-white shadow-lg p-5 border-l border-gray-200 rounded-lg"
+          class="my-10 w-80 bg-white shadow-md p-5 border-l border-gray-200 rounded-lg"
         >
           <div class="flex justify-between items-center mb-4">
-            <h2 class="font-semibold text-lg">Call History</h2>
+            <h2 class="font-semibold text-lg"><i class="text-gray-500 fa-regular fa-clock"></i>  Call History</h2>
             <button
               class="text-sm bg-green-500 text-white px-4 py-2 rounded-3xl hover:bg-green-700"
             >
@@ -472,5 +472,8 @@
         </div>
       </div>
     </main>
+
+    <!-- Scripts -->
+     <script src="./scripts/script.js"></script>
   </body>
 </html>
