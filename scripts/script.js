@@ -71,5 +71,23 @@ function clearHistory() {
 const clearHistoryBtn = callHistory.querySelector("button");
 clearHistoryBtn.addEventListener("click", clearHistory);
 
+// Copy button functionality
+const rightDiv = document.getElementsByClassName("right")[0];
+const copyHeaderBtn = rightDiv.getElementsByTagName("button")[2];
+const copyHeaderSpan = copyHeaderBtn.getElementsByTagName("span")[0];
+let copyCount = 0;
+const copyBtns = document.getElementsByClassName("copyBtn");
+
+for (let btn of copyBtns) {
+    btn.addEventListener("click", function () {
+        const card = btn.parentNode.parentNode;
+        const number = card.getElementsByTagName("p")[2].innerText;
+
+        alert("Number " + number + " copied...");
+
+        copyCount++;
+        copyHeaderSpan.innerText = copyCount;
+    });
+}
 
 
